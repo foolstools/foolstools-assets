@@ -1,4 +1,4 @@
-# foolstools-assets
+# FoolsTools assets
 FoolsTools is making the multichain investor's life easier. https://foolstools.net
 # Contributing
 You're welcome to contribute changes, forking and creating a merge request.
