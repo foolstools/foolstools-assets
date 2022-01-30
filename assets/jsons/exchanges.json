@@ -1,0 +1,238 @@
+{
+    "exchanges": [
+        {
+            "name": "KuDOS",
+            "networks": [
+                {
+                    "id": 321,
+                    "factory": "0xF7dFC06db5c3284D8e0819eE1fF0F30e3DbECd25",
+                    "router": "0x8390CE2dc3D454fC8da387efb514eb281321eaBf"
+                }
+            ],
+            "url": "https://kex.ku-dos.app",
+            "icon": "https://www.ku-dos.app/img/logo.jpeg",
+            "description": "KuDOS Exchange"
+        },   
+        {
+            "name": "KuSwap",
+            "networks": [
+                {
+                    "id": 321,
+                    "factory": "0xAE46cBBCDFBa3bE0F02F463Ec5486eBB4e2e65Ae",
+                    "router": "0xA58350d6dEE8441aa42754346860E3545cc83cdA"
+                }
+            ],
+            "url": "https://kuswap.finance/#/swap",
+            "icon": "https://kuswap.finance/kus.png",
+            "description": "KuSwap"
+        },       
+        {
+            "name": "KoffeSwap",
+            "networks": [
+                {
+                    "id": 321,
+                    "factory": "0xC0fFeE00000e1439651C6aD025ea2A71ED7F3Eab",
+                    "router": "0xc0fFee0000C824D24E0F280f1e4D21152625742b",
+                    "custom_abi": "koffeeswap_router_abi",
+                    "functions": {
+                        "swapExactETHForTokens" : "swapExactKCSForTokens",
+                        "swapExactETHForTokensSupportingFeeOnTransferTokens": "swapExactKCSForTokensSupportingFeeOnTransferTokens",
+                        "swapExactTokensForETH": "swapExactTokensForKCS",
+                        "swapExactTokensForTokens": "swapExactTokensForTokens",
+                        "swapExactTokensForTokensSupportingFeeOnTransferTokens": "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+                        "swapETHForExactTokens": "swapKCSForExactTokens",
+                        "swapTokensForExactETH": "swapTokensForExactKCS",
+                        "swapTokensForExactTokens": "swapTokensForExactTokens"
+                    }                    
+                }
+            ],
+            "url": "http://koffeeswap.exchange/#/swap",
+            "icon": "http://koffeeswap.exchange/static/media/logo.e41273ab.png",
+            "description": "KoffeSwap"
+        },            
+        {
+            "name": "PancakeSwap",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0xca143ce32fe78f1f7019d7d551a6402fc5350c73",
+                    "router": "0x10ed43c718714eb63d5aa57b78b54704e256024e"
+                }
+            ],
+            "url": "https://exchange.pancakeswap.finance",
+            "icon": "https://pancakeswap.finance/favicon.ico",
+            "description": "PancakeSwap v2"
+        },
+        {
+            "name": "PancakeSwap V1",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0xbcfccbde45ce874adcb698cc183debcf17952812",
+                    "router": "0x05ff2b0db69458a0750badebc4f9e13add608c7f"
+                }
+            ],
+            "url": "https://v1exchange.pancakeswap.finance",
+            "icon": "https://bscscan.com/images/cake.svg",
+            "description": "PancakeSwap v1"
+        },   
+        {
+            "name": "HyperJump",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0xaC653cE27E04C6ac565FD87F18128aD33ca03Ba2",
+                    "router": "0x3bc677674df90A9e5D741f28f6CA303357D0E4Ec"
+                },
+                {
+                    "id": 137,
+                    "factory": "0x991152411A7B5A14A8CF0cDDE8439435328070dF",
+                    "router": "0x53c153a0df7e050bbefbb70ee9632061f12795fb"
+                }
+            ],
+            "url": "https://swap.hyperjump.fi/",
+            "icon": "https://gblobscdn.gitbook.com/spaces%2F-MTYFliHdk6QUbMgxsyY%2Favatar-1613352108207.png?alt=media",
+            "description": "Are you ready to move beyond the corridor of our space-time, on an adventure to unveil the treasures and secrets of the universe?"
+        },
+        {
+            "name": "PantherSwap",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0x670f55c6284c629c23bae99f585e3f17e8b9fc31",
+                    "router": "0x24f7c33ae5f77e2a9eceed7ea858b4ca2fa1b7ec"
+                }
+            ],
+            "url": "https://dex.pantherswap.com/#/swap",
+            "icon": "https://gblobscdn.gitbook.com/spaces%2F-MXgxlXHNRZmgvPi6CQw%2Favatar-1618667358394.png?alt=media",
+            "description": "Welcome to PantherSwap - The First Automatic Liquidity Acquisition Yield Farm & AMM on Binance Smart Chain."
+        },
+        {
+            "name": "ApeSwap",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0x0841BD0B734E4F5853f0dD8d7Ea041c241fb0Da6",
+                    "router": "0xcF0feBd3f17CEf5b47b0cD257aCf6025c5BFf3b7"
+                }
+            ],
+            "url": "https://apeswap.finance",
+            "icon": "https://gblobscdn.gitbook.com/spaces%2F-MTJ1qyFf3rQZjewhth_%2Favatar-1615657020974.png?alt=media",
+            "description": "ApeSwap is a leading decentralized exchange (DEX) on Binance Smart Chain and Polygon focused on offering a premier trading experience."
+        },
+        {
+            "name": "BiSwap",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0x7164835F74A5aDa9FeFF03186Bb19e9C22833182",
+                    "router": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8"
+                }
+            ],
+            "url": "https://exchange.biswap.org/#/swap",
+            "icon": "https://avatars.githubusercontent.com/u/82933564?s=200&v=4",
+            "description": "Bi Swap - Sign Up Bonus. Brand new, Audited, next generation yield farm on BSC Networks. Bi Swap. Brand new, Audited, next generation yield farm on BSC!"
+        },
+        {
+            "name": "WaultSwap",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0xB42E3FE71b7E0673335b3331B3e1053BD9822570",
+                    "router": "0xD48745E39BbED146eEC15b79cBF964884F9877c2"
+                }
+            ],
+            "url": "https://app.wault.finance/",
+            "icon": "https://gblobscdn.gitbook.com/spaces%2F-MYCOKAKvBx4DxH1H70y%2Favatar-1618878190995.png?alt=media",
+            "description": "Wault Finance is a decentralized finance hub that connects all of the primary DeFi use-cases within one simple ecosystem, on the Binance Smart Chain. In short, an all-in-one DeFi Platform!"
+        },
+        {
+            "name": "JetSwap",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0x0eb58E5c8aA63314ff5547289185cC4583DfCBD5",
+                    "router": "0xBe65b8f75B9F20f4C522e0067a3887FADa714800"
+                },
+                {
+                    "id": 137,
+                    "factory": "0x5659b81b7ca5233BD999073E49FC417E05Dc2363",
+                    "router": "0x27F08CA6FF0d9891A66E4ebc3ce9d46a1873db3a"
+                }
+            ],
+            "url": "https://jetswap.finance/",
+            "icon": "https://github.com/gabbo-dam/jetswap-frontend/blob/0e7af3f6842cea0436d67a195c7fa15583eddb74/public/logo.png?raw=true",
+            "description": "Jetswap is a decentralized Automated Market Maker (AMM) on Binance Smart Chain with low fees and instant trade execution. Trade from the comfort of your own wallet!"
+        },
+        {
+            "name": "BakerySwap",
+            "networks": [
+                {
+                    "id": 56,
+                    "factory": "0x01bF7C66c6BD861915CdaaE475042d3c4BaE16A7",
+                    "router": "0xCDe540d7eAFE93aC5fE6233Bee57E1270D3E330F"
+                },
+                {
+                    "id": 137,
+                    "factory": "0x3ADF3c040255F20255C49d880FaDE7ebb65eb5EA",
+                    "router": "0x4cFE48f0AA8297C4603941aeB182E7B57c782d82"
+                }
+            ],
+            "url": "https://www.bakeryswap.org/#/home",
+            "icon": "https://github.com/BakeryTools/webstaking-frontend/blob/3e7ed3988aae3b565773814c444391b9e00e73b8/public/logo.png?raw=true",
+            "description": "BakerySwap is the all-in-one DeFi platform that provides both AMM and NFT Marketplace solutions in one place!"
+        },
+        {
+            "name": "Pangolin",
+            "networks": [
+                {
+                    "id": 43114,
+                    "factory": "0xefa94DE7a4656D787667C749f7E1223D71E9FD88",
+                    "router": "0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106"
+                }
+            ],
+            "url": "https://app.pangolin.exchange/#/swap",
+            "icon": "https://app.pangolin.exchange/static/media/icon.adcff230.svg",
+            "description": "A community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution"
+        },
+        {
+            "name": "QuickSwap",
+            "networks": [
+                {
+                    "id": 137,
+                    "factory": "0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32",
+                    "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
+                }
+            ],
+            "url": "https://quickswap.exchange/#/swap",
+            "icon": "https://info.quickswap.exchange/favicon.png",
+            "description": "Quickswap is an automated liquidity protocol powered by a constant product formula and implemented in a system of non-upgradeable smart contracts on the Ethereum blockchain."
+        },
+        {
+            "name": "UniSwap",
+            "networks": [
+                {
+                    "id": 1,
+                    "factory": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+                    "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
+                }
+            ],
+            "url": "https://app.uniswap.org/#/swap",
+            "icon": "https://app.uniswap.org/favicon.png",
+            "description": "The Uniswap protocol is a peer-to-peer system designed for exchanging cryptocurrencies (ERC-20 Tokens) on the Ethereum blockchain."
+        },
+        {
+            "name": "WagyuSwap",
+            "networks": [
+                {
+                    "id": 106,
+                    "factory": "0x69f3212344A38b35844cCe4864C2af9c717F35e3",
+                    "router": "0x3D1c58B6d4501E34DF37Cf0f664A58059a188F00"
+                }
+            ],
+            "url": "https://exchange.wagyuswap.app/swap",
+            "icon": "https://exchange.wagyuswap.app/favicon.ico",
+            "description": "WagyuSwap is the leading decentralized exchange on the Velas Chain, which has been clocked as the fastest blockchain in the world."
+        }
+    ]
+}
