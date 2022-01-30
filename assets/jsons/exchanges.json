@@ -12,7 +12,7 @@
             "url": "https://kex.ku-dos.app",
             "icon": "https://www.ku-dos.app/img/logo.jpeg",
             "description": "KuDOS Exchange"
-        },   
+        },
         {
             "name": "KuSwap",
             "networks": [
@@ -25,7 +25,7 @@
             "url": "https://kuswap.finance/#/swap",
             "icon": "https://kuswap.finance/kus.png",
             "description": "KuSwap"
-        },       
+        },
         {
             "name": "KoffeSwap",
             "networks": [
@@ -35,7 +35,7 @@
                     "router": "0xc0fFee0000C824D24E0F280f1e4D21152625742b",
                     "custom_abi": "koffeeswap_router_abi",
                     "functions": {
-                        "swapExactETHForTokens" : "swapExactKCSForTokens",
+                        "swapExactETHForTokens": "swapExactKCSForTokens",
                         "swapExactETHForTokensSupportingFeeOnTransferTokens": "swapExactKCSForTokensSupportingFeeOnTransferTokens",
                         "swapExactTokensForETH": "swapExactTokensForKCS",
                         "swapExactTokensForTokens": "swapExactTokensForTokens",
@@ -43,13 +43,13 @@
                         "swapETHForExactTokens": "swapKCSForExactTokens",
                         "swapTokensForExactETH": "swapTokensForExactKCS",
                         "swapTokensForExactTokens": "swapTokensForExactTokens"
-                    }                    
+                    }
                 }
             ],
             "url": "http://koffeeswap.exchange/#/swap",
             "icon": "http://koffeeswap.exchange/static/media/logo.e41273ab.png",
             "description": "KoffeSwap"
-        },            
+        },
         {
             "name": "PancakeSwap",
             "networks": [
@@ -75,7 +75,7 @@
             "url": "https://v1exchange.pancakeswap.finance",
             "icon": "https://bscscan.com/images/cake.svg",
             "description": "PancakeSwap v1"
-        },   
+        },
         {
             "name": "HyperJump",
             "networks": [
@@ -158,10 +158,15 @@
                     "id": 137,
                     "factory": "0x5659b81b7ca5233BD999073E49FC417E05Dc2363",
                     "router": "0x27F08CA6FF0d9891A66E4ebc3ce9d46a1873db3a"
-                }
+                },
+                {
+                    "id": 250,
+                    "factory": "0xf6488205957f0b4497053d6422F49e27944eE3Dd",
+                    "router": "0x845E76A8691423fbc4ECb8Dd77556Cb61c09eE25"
+                }                
             ],
             "url": "https://jetswap.finance/",
-            "icon": "https://github.com/gabbo-dam/jetswap-frontend/blob/0e7af3f6842cea0436d67a195c7fa15583eddb74/public/logo.png?raw=true",
+            "icon": "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F1377852573-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-28427.appspot.com%2Fo%2Fspaces%252F-Ma1OiRl2YKPy5KEq546%252Favatar-1621448867716.png%3Fgeneration%3D1621448868020826%26alt%3Dmedia",
             "description": "Jetswap is a decentralized Automated Market Maker (AMM) on Binance Smart Chain with low fees and instant trade execution. Trade from the comfort of your own wallet!"
         },
         {
@@ -233,6 +238,82 @@
             "url": "https://exchange.wagyuswap.app/swap",
             "icon": "https://exchange.wagyuswap.app/favicon.ico",
             "description": "WagyuSwap is the leading decentralized exchange on the Velas Chain, which has been clocked as the fastest blockchain in the world."
-        }
+        },
+        {
+            "name": "Solarbeam.io Moonriver",
+            "networks": [
+                {
+                    "id": 1285,
+                    "factory": "0x049581aEB6Fe262727f290165C29BDAB065a1B68",
+                    "router": "0xAA30eF758139ae4a7f798112902Bf6d65612045f"
+                }
+            ],
+            "url": "https://app.solarbeam.io/exchange/swap",
+            "icon": "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F4212404389-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fcollections%252F-MjCJ-MC2A5HxaU_VrWX%252Ficon%252FUqnn7Ay5h4sejitjQkni%252Flogomedium.png%3Falt%3Dmedia%26token%3D08e83464-be4f-4c75-a29e-5098fbb474f4",
+            "description": "Solarbeam is a decentralized exchange, providing liquidity and enabling peer-to-peer transactions on the Moonriver Network. We are currently the leading DEX on the network."
+        },        
+        {
+            "name": "StellaSwap",
+            "networks": [
+                {
+                    "id": 1284,
+                    "factory": "0x68a384d826d3678f78bb9fb1533c7e9577dacc0e",
+                    "router": "0xd0a01ec574d1fc6652edf79cb2f880fd47d34ab1"
+                }
+            ],
+            "url": "https://app.stellaswap.com/exchange/swap",
+            "icon": "https://app.stellaswap.com/_ipx/w_48,q_75/%2Fimages%2Ftokens%2Fstella.png?url=%2Fimages%2Ftokens%2Fstella.png&w=48&q=75",
+            "description": "Solarbeam is a decentralized exchange, providing liquidity and enabling peer-to-peer transactions on the Moonriver Network. We are currently the leading DEX on the network."
+        },
+        {
+            "name": "SushiSwap",
+            "networks": [
+                {
+                    "id": 1284,
+                    "factory": "0xc35dadb65012ec5796536bd9864ed8773abc74c4",
+                    "router": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506"
+                }
+            ],
+            "url": "https://app.sushi.com/swap",
+            "icon": "https://res.cloudinary.com/sushi-cdn/image/fetch/f_auto,c_limit,w_48,q_auto/https://app.sushi.com/images/logo.svg",
+            "description": "Sushi is a community-driven organization built to solve what might be called the “liquidity problem.” "
+        },        
+        {
+            "name": "ZenLink",
+            "networks": [
+                {
+                    "id": 1285,
+                    "factory": "0xf36ae63d89983e3aea8aaad1086c3280eb01438d",
+                    "router": "0xe6fe3db4c5a2e4a9ab3301201b38724e578b35ca",
+                    "custom_abi": "zenlink",
+                    "functions": {
+                        "swapExactETHForTokens": "swapExactNativeCurrencyForTokens",
+                        "swapExactETHForTokensSupportingFeeOnTransferTokens": "swapExactNativeCurrencyForTokens",
+                        "swapExactTokensForETH": "swapExactTokensForNativeCurrency",
+                        "swapExactTokensForTokens": "swapExactTokensForTokens",
+                        "swapExactTokensForTokensSupportingFeeOnTransferTokens": "swapExactTokensForTokens",
+                        "swapETHForExactTokens": "swapNativeCurrencyForExactTokens",
+                        "swapTokensForExactETH": "swapTokensForExactNativeCurrency",
+                        "swapTokensForExactTokens": "swapTokensForExactTokens"
+                    }
+                }
+            ],
+            "url": "https://dex.zenlink.pro/#/swap",
+            "icon": "https://dex.zenlink.pro/favicon.png",
+            "description": "ZenLink"
+        },
+        {
+            "name": "SpookySwap",
+            "networks": [
+                {
+                    "id": 250,
+                    "factory": "0x152ee697f2e276fa89e96742e9bb9ab1f2e61be3",
+                    "router": "0xf491e7b69e4244ad4002bc14e878a34207e38c29"
+                }
+            ],
+            "url": "https://spookyswap.finance/swap",
+            "icon": "https://assets.spookyswap.finance/tokens/BOO.png",
+            "description": "SpookySwap"
+        }        
     ]
 }
